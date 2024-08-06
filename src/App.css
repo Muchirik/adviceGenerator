@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 810px;
+  width: 1440px;
+  background: #202733;
+}
+@media (max-width: 480px) {
+  .App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 375px;
+    height: 667px;
+    background: #202733;
+    box-sizing: border-box;
+
+  }}
